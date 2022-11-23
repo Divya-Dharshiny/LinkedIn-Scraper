@@ -11,7 +11,9 @@ from countries import checkLocation
 randomSampling = True
 samplingProbability = 0.1
 
-filterForUS = False
+filterForUS = True
+filterForIN = True
+
 
 def striplist(l):
     l = [x.strip().replace('\t',"") for x in l]
