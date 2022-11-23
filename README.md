@@ -1,21 +1,7 @@
 LinkedIn Scraper
 ================
 
-Juneki Hong 
 
-juneki@cs.jhu.edu
-
-Updated August 2014
--------------------
-
-Updated this README file and updated this project.
-Linkedin seems to have changed its website in the last few years, leaving this project to be outdated and only partially functional. 
-This seems like it will be a recurring problem. 
-However, for now I have updated the project to properly scrape the data that it used to years ago. I also cleaned up the code a bit.
-
-
-
-Originally written/uploaded August 2011
 ---------------------------------------
 
 This is a project that will go through and scrape public profile information off of linkedin. 
@@ -60,5 +46,5 @@ NOTES
 -This scraper samples a small number of profiles off of LinkedIn. If you would like for the scraper to exhaustively scrape every single profile, just go to linkedIn_spider.py and set the variable randomSampling at the top to false.
 -Similarly, if you want to increase the size of the sample of profiles scraped off of LinkedIn, you can increase the scaping probability by going to linkedIn_spider.py and setting the variable samplingProbability to a higher value.
 
--Finally, the scraper was originally designed to scrape only for US profiles. This is now set to false by default, but if you would like this turned on as well, you need to go to linkedIn_spider.py and set the variable filterForUS to true.
+-Finally, the scraper was originally designed to scrape India and US profiles. This is now set to false by default, but if you would like this turned on as well, you need to go to linkedIn_spider.py and set the variable filterForUS to true.
 
